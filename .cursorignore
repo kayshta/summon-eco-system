@@ -1,0 +1,14 @@
+# Cursor ignore file
+# This file controls what Cursor IDE should ignore
+
+# Ignore node_modules (too large)
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+*.log
+
+# Note: .env files are NOT ignored here so you can edit them
+# They are still in .gitignore for security (won't be committed to git)
+

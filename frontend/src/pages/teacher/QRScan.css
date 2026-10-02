@@ -1,0 +1,12 @@
+#reader {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#reader__scan_region {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

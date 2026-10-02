@@ -1,0 +1,22 @@
+{
+  "name": "school-operations",
+  "version": "1.0.0",
+  "description": "School Operations Ecosystem - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "setup:passwords": "cd backend && npm run setup-passwords"
+  },
+  "keywords": ["school", "operations", "whatsapp", "qr"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
